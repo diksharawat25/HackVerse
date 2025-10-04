@@ -1,33 +1,27 @@
-import React from "react";
+// Organizer.jsx
+import React, { useState } from "react";
+import RegistrationForm from "./RegistrationForm";
 
-function OrganizerSection() {
+function Organizer() {
+  const [showForm, setShowForm] = useState(false);
+
   return (
-    <section
-      style={{
-        padding: "50px",
-        background: "#f0f0f0",
-        textAlign: "center",
-      }}
-    >
-      <h2>Become an Event Organizer</h2>
-      <p>
-        If you are organizing an event and want students to register, click the
-        button below to register your event.
+    <section className="py-16 bg-white text-center">
+      <h2 className="text-3xl font-bold">Want to Organize an Event?</h2>
+      <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+        If you are an organizer and want students to register for your event, 
+        click below to submit event details.
       </p>
       <button
-        style={{
-          background: "linear-gradient(90deg, #ff8c00, #1e90ff)",
-          color: "white",
-          border: "none",
-          padding: "10px 25px",
-          borderRadius: "8px",
-          cursor: "pointer",
-        }}
+        onClick={() => setShowForm(true)}
+        className="mt-6 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg"
       >
-        Register Event
+        Register Your Event
       </button>
+
+      {showForm && <RegistrationForm onClose={() => setShowForm(false)} />}
     </section>
   );
 }
 
-export default OrganizerSection;
+export default Organizer;
