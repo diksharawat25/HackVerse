@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 
 const Navbar = () => {
@@ -17,7 +16,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
-=======
-
->>>>>>> 97869e6f44c979265d3383cc790bcac8f429812c
+export default Navbar;
