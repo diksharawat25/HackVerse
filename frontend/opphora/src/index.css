@@ -80,3 +80,66 @@
   background-color: #222;
   color: white;
 }
+/* about */
+
+/* about hero section */ */
+.about-hero {
+  background: url('/path-to-banner-bg.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 60px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-description {
+  min-height: 200px;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  flex: 1;
+}
+
+/* about */
+/* Key motives */
+.key-motives {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.motive-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.motive-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* about */
+/* key motives */
+
+
