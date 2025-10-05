@@ -18,4 +18,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// for running backedn server use command: node server.js
+// for running backend server use command: node server.js
