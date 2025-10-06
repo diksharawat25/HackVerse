@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import UpcomingEvents from "../components/UpcomigEvents";
 import EventOrganizerBanner from "../components/EventOrganiserBanner";
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+
 
 const HomePage = () => {
   return (
@@ -14,7 +14,7 @@ const HomePage = () => {
       <UpcomingEvents />
       <EventOrganizerBanner />
       <Contact />
-      <Footer />
+
     </div>
   );
 };
